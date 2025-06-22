@@ -146,7 +146,7 @@ streamlit run dashboard/dashboard.py
 - ✅ Platform tested (Windows 11)
 - ✅ Compatible with Chrome/Edge
 - ✅ DB write-read stress-tested for 5K+ rows
-- ✅ Still pending: alert system and download function
+- ✅ Alert system function
 
 ---
 
