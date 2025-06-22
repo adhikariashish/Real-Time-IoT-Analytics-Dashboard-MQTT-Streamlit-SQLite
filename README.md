@@ -11,6 +11,10 @@ A production-grade real-time monitoring dashboard built using **Streamlit**, **S
 To develop a real-time streaming analytics solution for environmental monitoring using simulated IoT sensor data across multiple rooms. The dashboard visualizes temperature, humidity, and CO₂ levels, computes a composite comfort score (Mood Score), and supports filtering, performance indicators, and future alert logic.
 
 ---
+## 🖼️ Dashboard Preview
+
+![Dashboard Screenshot](images/dashboard-all.png)
+view other tabs screenshot at the end of the file!
 
 ## 🧠 Use Case & Problem Statement
 
@@ -66,8 +70,6 @@ This modular design allows easy swap-in for real-world brokers like **Mosquitto*
 - 📉 Horizontal bar chart visualizing per-room and per-timestamp **Mood Score**
 - 🌡️ Mood Score: weighted comfort index (custom formula)
 - 🗂️ SQLite-backed persistent storage
-- 📥 (Planned) Download filtered data as CSV
-- ⚠️ (Planned) Threshold-based alerting system
 
 ---
 
@@ -156,3 +158,11 @@ streamlit run dashboard/dashboard.py
 | 🧠 Predictive insights (ML)  | Future release  |
 
 ---
+
+## 🖼️ Dashboard Preview
+
+![Dashboard Screenshot](images/dashboard-room.png)
+
+![Dashboard Screenshot](images/dashboard-alldata.png)
+
+![Dashboard Screenshot](images/dashboard-alert.png)
